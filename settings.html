@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="settings.css">
+        <link rel="stylesheet" href="pong.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body onload="loadSettings();">
+        <div class="container" id="settings-page">
+            <h1 id="settings-title">Settings</h1>
+            <div id="players" class="select">
+                <h1>Players:</h1>
+                <div class="options">
+                    <button id="select-1player" onclick="select1Player()">1 Player</button>
+                    <button id="select-2player" onclick="select2Player()">2 Players</button>
+                </div>
+            </div>
+            <div id="difficulty" class="select">
+                <h1>Difficulty:</h1>
+                <div class="options">
+                    <button id="difficulty1" onClick="selectDifficulty(1)">Easy</button>
+                    <button id="difficulty2" onClick="selectDifficulty(2)">Medium</button>
+                    <button id="difficulty3" onClick="selectDifficulty(3)">Hard</button>
+                </div>
+            </div>
+            <div id="time-mode" class="select">
+                <h1>Game Mode:</h1>
+                <div class="options">
+                    <button id="select-scoreMode" onclick="selectScoreMode()">Score</button>
+                    <button id="select-timeMode" onclick="selectTimeMode()">Time</button>
+                </div>
+            </div>
+            <div id="game-time" class="select">
+                <h1 id="prefix">Score Limit:</h1>
+                <div id="points-minutes">
+                    <h1 id="number">7</h1>
+                    <h1 id="unit">Points</h1>
+                    <button onclick="decrement()">-</button>
+                    <button onclick="increment()">+</button>
+                </div>
+            </div>
+            <div id="player1-name" class="select">
+                <h1>Player 1 Name:</h1>
+                <input type="text" id="p1-name" class="input-name" placeholder="Player 1">
+            </div>
+            <div id="player2-name" class="select">
+                <h1>Player 2 Name:</h1>
+                <input type="text" id="p2-name" class="input-name" placeholder="Player 2">
+            </div>
+            <a href="index.html" class="back-button" onclick="saveSettings()">Save</a>
+        </div>
+        <script src="settings.js"></script>
+    </body>
+</html>

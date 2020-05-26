@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="pong.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="message">Let's Play Pong!</h1>
+                <button id="start" class="play-button" onclick="play()">Play!</button>
+                <a id="quit-button" href="index.html" class="play-button" style="display: none;">Quit</a>
+            </header>
+            <div id="arena">
+                <div id="time">
+                    <h3 id="time-text"></h3>
+                </div>
+                <div id="scoreboard">
+                    <h2 id="score_1">0</h2><h2 id="score_2">0</h2>
+                </div>
+                <h1 id="win"></h1>
+                <div class="player" id="P1"></div>
+                <div class="player" id="P2"></div>
+                <div id="ball"></div>
+            </div>
+        </div>
+        <script src="pong.js"></script>
+    </body>
+</html>

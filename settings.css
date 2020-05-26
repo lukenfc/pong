@@ -1,0 +1,63 @@
+#settings-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+.select{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    justify-content: space-between;
+}
+.options button{
+    height: 100%;
+}
+#points-minutes{
+    display: flex;
+    flex-direction: row;
+}
+#number{
+    margin-right: 20px;
+}
+.input-name{
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Press Start 2p';
+    color: white;
+    text-align: center;
+}
+#settings-title{
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    justify-self: center;
+}
+.back-button{
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Press Start 2p';
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.back-button:hover{
+    color: rgb(85, 85, 85);
+}
+.back-button:active{
+    transform: scale(.9);
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+#unit{
+    margin-right: 10px;
+}

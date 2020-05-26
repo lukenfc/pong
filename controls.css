@@ -1,0 +1,50 @@
+#controls-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+#controls-title{
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    justify-self: center;
+    font-size: 25px;
+}
+.back-button{
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Press Start 2p';
+    padding: 10px;
+    text-decoration: none;
+    margin: 15px
+}
+.back-button:hover{
+    color: rgb(85, 85, 85);
+}
+.back-button:active{
+    transform: scale(.9);
+}
+.up-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-style: dotted;
+    border-color: white;
+}
+.up-down h2{
+    font-size: 15px;
+    padding: 10px;
+}
+#controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px
+}

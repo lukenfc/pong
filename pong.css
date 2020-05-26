@@ -1,0 +1,136 @@
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom-style: solid;
+    border-color: white;
+}
+h1{
+    font-size: 100%;
+    font-family: 'Press Start 2p';
+}
+h2{
+    font-family: 'Press Start 2p';
+}
+button{
+    font-size: 100%;
+    border-style: solid;
+    border-color: black;
+    font-family: 'Press Start 2p';
+}
+button:hover{
+    background-color: rgb(85, 85, 85);
+}
+button:active{
+    transform: scale(.9);
+}
+.container{
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -235px;
+    margin-left: -300px;
+}
+#scoreboard{
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+    grid-row: 20 / 35;
+    grid-column: 100 / 200;
+}
+#time{
+    background-color: black;
+    color: white;
+    grid-row: 0 / 15;    
+    grid-column: 125 / 175;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#time-text{
+    text-align: center;
+    font-family: 'Press Start 2p'
+}
+#arena{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(300, 2px);
+    grid-template-rows: repeat(200, 2px);
+    margin: 0px;
+}
+.player{
+    background-color: white;
+    grid-row: 90/110;
+}
+#P1{
+    grid-column: 15 / 18;
+}
+#P2{
+    grid-column: 282 / 285;
+}
+#ball{
+    background-color: black;
+    grid-row: 99 / 102;
+    grid-column: 149 / 152;
+}
+#win{
+    grid-column: 75/225;
+    grid-row: 70/150;
+    font-family: 'Press Start 2p';
+    text-align: center;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(104, 0, 104);
+}
+#title{
+    font-size: 50px;
+    margin: 30px;
+}
+h4{
+    font-family: 'Press Start 2p';
+}
+#homeScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+.play-button{
+    background-color: white;
+    color: black;
+    font-size: 100%;
+    border-style: solid;
+    border-color: black;
+    font-family: 'Press Start 2p';
+    padding: 10px;
+    text-decoration: none;
+}
+.play-button:hover{
+    background-color: rgb(85, 85, 85);
+}
+.play-button:active{
+    transform: scale(.9);
+}
+#mark{
+    height: 40%;
+    width: auto;
+    padding: 10px;
+}
+
+
+
+
+
+
