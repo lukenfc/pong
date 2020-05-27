@@ -91,6 +91,7 @@ button:active{
 body{
     height: 100%;
     width: 100%;
+    background-color: rgb(70,144,250);
 }
 #title{
     font-size: 50px;
