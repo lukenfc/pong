@@ -1,6 +1,6 @@
 
 function generateSettings(){
-    if(localStorage.getItem('settings') === null){
+    if(localStorage.getItem('settings') === 'null'){
         var settings = {
             cpu: true,
             timeMode: false,
