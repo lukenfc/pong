@@ -8,7 +8,7 @@ function generateSettings(){
             timeLimit: 5,
             p1name: 'Player 1',
             p2name: 'Player 2',
-            difficulty: 1,
+            difficulty: 1
         }
         localStorage.setItem('settings', JSON.stringify(settings));
     }
